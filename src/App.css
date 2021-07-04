@@ -1,38 +1,190 @@
-.App {
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navbarContainer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 150px;
+}
+
+.logo {
+  width: 50px;
+}
+
+.header {
+  background-image: url('https://images.unsplash.com/photo-1439792675105-701e6a4ab6f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8N3x8fGVufDB8fHx8&w=1000&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 900px;
+}
+.header-text-container{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.header-title{
+  color: white;
+  font-size: 40px;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.header-subtitle{
+ color: white;
+ font-size: 26px;
+ margin: 0;
+ margin-bottom: 16px;
+}
+
+.header-button {
+  background-color: #ffb000;
+  color: white;
+  border-radius: 40px;
+  height: 50px;
+  width: 260px;
+  margin-top: 40px;
+}
+
+.paper-container{
+  margin: auto;
+  max-width: 1000px;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+  background-color: white;
+  margin-top: 180px;
+}
+
+.left-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 50%;
+}
+
+.paper-image-1 {
+  width: 50%;
+  margin-right: 24px;
+}
+
+.right-container {
+  width: 50%;
+  margin-left: 64px;
+}
+
+.paper-text {
+  text-align: justify;
+}
+
+.body{
+  margin-top: 200px;
+}
+
+.body-text-1{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.special-offers-section {
+  width: 100%;
+  height: 680px;
+  background-image: url('https://lh3.googleusercontent.com/proxy/raMFrnWPMSlhxBGlNiJqVCYl5L55Fk8XQbnaZa_dnOXpfbTyqnvXz7euLzOBm6FBUWEzn9T0RLe-Q8d0bAzct8pZuhVWI5-cGwFMkzsKj_wrP1hmnPdQc_vD');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 60px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.center-flex {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.divider {
+  width: 100px;
+  background-color: #ffb000;
+  height: 2px;
+}
+
+.white-text {
   color: white;
+  font-size: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.cards-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  margin-top: 24px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.card {
+  height: 330px;
+  width: 22%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-self: center;
+  background-color: white;
+}
+
+.card-img{
+  height: 300px;
+  width: 100%;
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.paper-2 {
+  margin-top: 100px
+}
+
+.paper-image-2 {
+  width: 100%;
+  margin-right: 24px;
+  height: 300px;
+}
+
+.footer {
+  margin-top: 300px;
+  background-color: black;
+  height: 300px;
+}
+
+.footer-root {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  color: white;
 }
